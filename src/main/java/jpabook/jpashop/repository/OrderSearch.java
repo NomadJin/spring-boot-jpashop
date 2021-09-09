@@ -1,6 +1,6 @@
 package jpabook.jpashop.repository;
 
-import jpabook.jpashop.domain.OrderState;
+import jpabook.jpashop.domain.OrderStatus;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -9,5 +9,5 @@ import lombok.Setter;
 public class OrderSearch {
 
     private String memberName;
-    private OrderState orderState;
+    private OrderStatus orderStatus;
 }
